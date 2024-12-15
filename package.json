@@ -16,6 +16,7 @@
     "cookie-parser": "^1.4.7",
     "dotenv": "^16.4.7",
     "ejs": "^3.1.10",
+    "express": "^4.21.2",
     "express-session": "^1.18.1",
     "filelist": "^1.0.4",
     "has-flag": "^4.0.0",

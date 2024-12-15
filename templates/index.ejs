@@ -1,0 +1,32 @@
+<!--login/sign up screen-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Pokémon Gacha</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="page">
+        <h1 class = "title">Pokémon Gacha Simulator</h1>
+        <div class="login-container">
+            <h2>Login</h2>
+            <form action="http://localhost:5000/welcome" method="post">
+                <div class="input-group">
+                    <label>Username</label>
+                    <input type="text" id="username" name="user" required>
+                </div>
+
+                <div class="input-group">
+                    <label>Password</label>
+                    <input type="password" id="password" name="pass" required>
+                </div>
+                <button type="submit">Login</button>
+            </form>
+            <h2><%- error %></h2>
+        </div>
+    </div>
+</body>
+</html>

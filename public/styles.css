@@ -1,0 +1,29 @@
+.title {
+    font-size: 55px;
+    text-align: center;
+}
+
+.login-container {
+    text-align: center;
+}
+
+.input-group {
+    padding: 5px;
+}
+
+.page {
+    border-color: red;
+    border-style: groove;
+    border-width: 1rem;
+    height: 770px;
+}
+
+body {
+    border-color: black;
+    border-width: .5rem;
+    border-style: solid;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

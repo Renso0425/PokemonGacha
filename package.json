@@ -1,7 +1,7 @@
 {
   "name": "pokemon-gacha",
   "version": "1.0.0",
-  "main": "templates/welcome.ejs",
+  "main": "index.ejs",
   "dependencies": {
     "ansi-styles": "^4.3.0",
     "async": "^3.2.6",
